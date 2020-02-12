@@ -1,0 +1,7 @@
+dubbo:
+  application:
+    name: consumer-boot-an
+  registry:
+    protocol: zookeeper
+    address:  101.201.69.112:2181
+
