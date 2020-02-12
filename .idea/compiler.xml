@@ -10,7 +10,9 @@
         <module name="dubbo" />
         <module name="dubbo-provider" />
         <module name="dubbo-consumer" />
+        <module name="provider-boot-annotation" />
         <module name="dubbo-interface" />
+        <module name="consumer-springboot-xml" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +21,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-springboot-xml" options="-parameters" />
+      <module name="provider-boot-annotation" options="-parameters" />
       <module name="provider-springboot-xml" options="-parameters" />
     </option>
   </component>
