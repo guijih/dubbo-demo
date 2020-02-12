@@ -16,9 +16,12 @@ public class Consumer {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext(
                 new String[]{"classpath:dubbo-consumer.xml"});
         context.start();
-        // 获取远程服务
-        IUservice userService = context.getBean(IUservice.class);
-        System.out.println("获取服务器的反馈信息" + userService.hello());
+        for (int i = 0; i < 4; i++) {
+            // 获取远程服务
+            IUservice userService = context.getBean(IUservice.class);
+            System.out.println("获取服务器的反馈信息" + userService.hello());
+        }
+
 
     }
 }

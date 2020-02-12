@@ -9,7 +9,7 @@
     <!--定义注册中心的地址-->
     <dubbo:registry protocol="zookeeper" address="101.201.69.112:2181"/>
     <!--定义服务的提供者-->
-    <bean id="UserService" class="service.impl.UserServiceImpl"/>
+    <bean id="UserService" class="com.qf.providerspringbootxml.service.UserServiceImpl"/>
     <dubbo:service interface="com.qf.service.IUservice" ref="UserService"/>
 
 </beans>
