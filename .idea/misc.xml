@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/provider-springboot-xml/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-springboot-xml/pom.xml" />
         <option value="$PROJECT_DIR$/provider-boot-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/consumer-springboot-annotation/pom.xml" />
       </list>
     </option>
   </component>

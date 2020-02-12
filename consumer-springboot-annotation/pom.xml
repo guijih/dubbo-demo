@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.qf</groupId>
-    <artifactId>provider-boot-annotation</artifactId>
+    <artifactId>consumer-springboot-annotation</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>provider-boot-annotation</name>
+    <name>consumer-springboot-annotation</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>

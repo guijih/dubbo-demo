@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="provider-springboot-xml" />
+        <module name="consumer-springboot-annotation" />
         <module name="dubbo" />
         <module name="dubbo-provider" />
         <module name="dubbo-consumer" />
@@ -21,6 +22,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-springboot-annotation" options="-parameters" />
       <module name="consumer-springboot-xml" options="-parameters" />
       <module name="provider-boot-annotation" options="-parameters" />
       <module name="provider-springboot-xml" options="-parameters" />
